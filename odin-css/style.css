@@ -1,0 +1,18 @@
+.head {
+    background-color: mediumaquamarine;
+    color: red;
+}
+
+.head.text {
+    color: violet;
+}
+
+#header {
+    background-color: black;
+    color: burlywood;
+}
+
+.main .head {
+    background-color: aqua;
+    color: blue;
+}

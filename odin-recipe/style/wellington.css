@@ -1,0 +1,18 @@
+* {
+    background-color: aqua;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+h1, h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
