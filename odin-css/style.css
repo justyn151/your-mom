@@ -16,3 +16,38 @@
     background-color: aqua;
     color: blue;
 }
+
+#box {
+    background-color: violet;
+    border: 10px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 200px;
+    margin: 25px auto;;
+    box-sizing: border-box;
+}
+
+.introduction, .main-content, .contact {
+    font-family: 'Consolas';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.introduction {
+    background-color: blue;
+}
+
+.main-content {
+    background-color: cornflowerblue;
+}
+
+.contact {
+    background-color: aqua;
+}
+
+.highlight {
+    background-color: yellow;
+}
