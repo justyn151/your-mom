@@ -42,7 +42,8 @@ body {
 }
 
 .navbar .top-item a:hover {
-	color:#596FB7;
+
+	background-color:#596FB7;
 }
 
 .header {
@@ -56,12 +57,21 @@ body {
 	max-width: 1100px;
 
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
 
+.introduction-container img {
+	margin-top: 20px;
+}
+
 .introduction-container div {
 	color: white;
+}
+
+.introduction-container .introduction-text {
+	max-width: 500px;
 }
 
 .introduction-container .introduction-text h1 {
@@ -101,31 +111,27 @@ body {
 	box-shadow: 5px 7px rgba(0, 0, 0, 0.5);
 }
 
-.content-description {
-	max-width: 1100px;
-	margin: 0 auto;
-	margin-top: 10px;
-
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 25px;
-}
-
-.content-description h1 {
-	min-width: 300px;
-	
+.content-container h1 {
 	text-align: center;
 }
 
-.quotes {
+.quotes-container {
 	height: 100px;
 	padding: 10px;
 	background-color: #C6CF9B;
 	margin-top: 30px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quotes h2, h3 {
+	margin-top: 10px;
 }
 
 .quotes h2 {
+	font-size: 20px;
 	text-align: center;
 }
 
